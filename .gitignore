@@ -4,7 +4,7 @@ __pycache__/
 *.pyo
 *.pyd
 
-# Virtual Environment
+# Virtual environments
 env/
 venv/
 
@@ -14,6 +14,9 @@ instance/
 
 # VS Code
 .vscode/
+
+# Temporary files
+tempCodeRunnerFile.py
 
 # OS files
 .DS_Store
