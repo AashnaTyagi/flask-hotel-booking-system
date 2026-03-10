@@ -12,6 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         window.location.href = button.getAttribute("data-url");
                     }
                 });
+                
         });
     });
 });

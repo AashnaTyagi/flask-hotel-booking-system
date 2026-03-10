@@ -7,7 +7,7 @@
         });
     });
 
-    function redirectToRegister() {
+    function redirectToRegister(){
         window.location.href = "/register"; // Redirects to the register page
     }
     

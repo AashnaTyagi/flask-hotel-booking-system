@@ -16,7 +16,7 @@ document.getElementById("applyFilters").addEventListener("click", function() {
         stars: selectedStars,
         reviews: selectedReviews,
         rooms: selectedRooms,
-        maxPrice: maxPrice,
+        maxPrice: maxPrice, 
         sortBy: sortBy
     };
 
