@@ -29,6 +29,7 @@ class User(db.Model, UserMixin):
     mobile = db.Column(db.String(15), nullable=False)
     role = db.Column(db.String(50), nullable=False, default="user")
     bookings = db.relationship('Booking', backref='user', lazy=True)
+    
 
     def set_password(self, password):
         self.password_hash = bcrypt.generate_password_hash(password).decode('utf-8')

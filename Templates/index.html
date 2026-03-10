@@ -13,7 +13,7 @@
     <nav class="navbar" style="background-color: #0056b3; padding: 10px 20px;height: 80px; display: flex; justify-content: space-between; align-items: center;">
 
         <div class="logo" style="font-size:28px;">BookingBuddy.com</div>
-        <div class="nav-links" style="font-size:28px; #333; padding: 10px 20px;height: 80px; display: flex; justify-content: space-between; align-items: center;">
+        <div class="nav-links" style="font-size:28px; color:#333; padding:10px 20px; height:80px; display:flex; justify-content:space-between; align-items:center;">
             {% if "user" in session %}
                 <a href="{{ url_for('logout') }}" class="btn">Logout</a>
             {% else %}

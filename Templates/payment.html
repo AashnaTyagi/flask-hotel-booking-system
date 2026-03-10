@@ -7,7 +7,7 @@
     <h2 class="text-center">Complete Your Payment</h2>
     
     <div class="card p-4 shadow-lg">
-        <p><strong>Hotel Name:</strong> {{ request.args.get('hotel_name') }}</p>
+        <p><strong>Hotel Name:</strong> {{ request.args.get('hotel_name') }} </p>
         <p><strong>Price:</strong> ₹{{ request.args.get('price') }}</p>
         
         <form action="{{ url_for('process_payment') }}" method="POST">

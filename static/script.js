@@ -7,11 +7,9 @@
         });
     });
 
-    function redirectToRegister(){
-        window.location.href = "/register"; // Redirects to the register page
-    }
-    
-
+function test(){
+console.log("new code")
+}
    
     
     
